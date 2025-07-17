@@ -21,8 +21,8 @@ trap ctrl_c INT
 helppanel ()
 {
   echo ""
-  echo -e "\n${yellowColour}[+]${endColour} ${grayColour}Para ejecutar la herramienta${endColour} ${blueColour}$0${endColour}${grayColour} es necesario usar la opción -i e indicar la IP${endColour}\n"
-  echo -e "${grayColour}Ejemplo:${endColour} ${blueColour}$0 -i 192.168.1.41${endColour}\n"
+  echo -e "\n${yellowColour}[+]${endColour} ${grayColour}Para ejecutar la herramienta${endColour} ${blueColour}$0${endColour}${grayColour} es necesario usar la opción -i e indicar la IP y la opcion -m para indicar el CIDR${endColour}\n"
+  echo -e "${grayColour}Ejemplo:${endColour} ${blueColour}$0 -i 192.168.1.41 -m /21${endColour}\n"
   exit 0
 
 }
